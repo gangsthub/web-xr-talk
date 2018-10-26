@@ -3,8 +3,6 @@ https://slides.com/stowball/intro-to-webxr/
 - demo al ppio
 - marker
 
-
-
 # Intro WebXR, immersive web.
 
     - What is Immersive Web: (https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
