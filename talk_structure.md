@@ -1,5 +1,9 @@
 https://slides.com/stowball/intro-to-webxr/
 
+- demo al ppio
+- marker
+
+
 
 # Intro WebXR, immersive web.
 
@@ -18,8 +22,12 @@ https://slides.com/stowball/intro-to-webxr/
 
         A draft, official spec and experimental JavaScript API that supports VR devices.
         Basically, it provides performant Stereoscopic Rendering and Positional Tracking
-        It doesn‘t do graphics. You need WebGL
+
+        It doesn‘t do graphics.
+
+        You need WebGL
             - THREE.js, BabylonJS
+            - AFrame.js
 
         - https://webvr.info/
             - In progress, 2019...
