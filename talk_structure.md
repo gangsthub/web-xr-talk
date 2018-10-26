@@ -1,7 +1,7 @@
 https://slides.com/stowball/intro-to-webxr/
 
 
-- Intro WebXR, immersive web.
+# Intro WebXR, immersive web.
 
     - What is Immersive Web: (https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
         - Immersive 360° videos
@@ -10,6 +10,8 @@ https://slides.com/stowball/intro-to-webxr/
         - Engaging shopping experiences
         - Art
         - Branding
+            - https://design.google/library/speaking-volumes/
+        - Games
         - Something cool nobody's thought of yet
 
     - State of the art WebVR/WebXR API
@@ -34,7 +36,7 @@ https://slides.com/stowball/intro-to-webxr/
     - Performance...:
         - On a 90-hertz HMD (Head Mounted Device), you have 11 milliseconds to render both eyes (https://software.intel.com/en-us/videos/webvr-interacting-with-the-hmd)
 
-- AFrame.js
+# AFrame.js
 
     - install
         - Online:
@@ -58,14 +60,22 @@ https://slides.com/stowball/intro-to-webxr/
             - https://aframe.io/docs/0.8.0/introduction/
         - with frameworks: not so well...
             - https://github.com/frederic-schwarz/aframe-vuejs-3dio
+            - https://codepen.io/stowball/full/qMVgeq/
         - Don McCurdy's animations and VR controls
             - https://rexraptor08.github.io/animation-controls/
 
+# AR in Web
+    https://aframe.io/blog/arjs/
+    https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf
 
-- branding en 3d
-    https://design.google/library/speaking-volumes/
+    - Demos:
+        - https://codepen.io/jeromeetienne/pen/mRqqzb
 
-- text is not a nice thing yet...
+# Special Mentions
+
+
+- Resources:
+    - https://webxr.io/
 
 - physics
     - https://github.com/kripken/ammo.js/
