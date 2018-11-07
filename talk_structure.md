@@ -1,6 +1,6 @@
 https://slides.com/stowball/intro-to-webxr/
 
-- demo al ppio
+- demo
 - marker
 
 # Intro WebXR, immersive web.
@@ -19,9 +19,7 @@ https://slides.com/stowball/intro-to-webxr/
     - State of the art WebVR/WebXR API
 
         A draft, official spec and experimental JavaScript API that supports VR devices.
-        Basically, it provides performant Stereoscopic Rendering and Positional Tracking
-
-        It doesn‘t do graphics.
+        Basically, it provides performant Stereoscopic Rendering and Positional Tracking. It doesn‘t do graphics.
 
         You need WebGL
             - THREE.js, BabylonJS
@@ -29,7 +27,13 @@ https://slides.com/stowball/intro-to-webxr/
 
         - https://webvr.info/
             - In progress, 2019...
-        - https://caniuse.com/#search=WebXR
+            - A-Frame 0.8.2 and Chrome v66+
+            - Chrome flgas: https://webvr.info/get-chrome/
+            - On Chrome:
+                - chrome://flags/#enable-webvr
+                - Or Phones ("DayDream Ready"): Pixel 3, Galaxy S9 & S9+, Pixel 2, Galaxy S8 & S8+, ZenFone AR, LG V30
+
+        - https://caniuse.com/#search=WebXR !!
             - Polyfills...
         - Controllers, new API, WebGL 3.X features support
         - Demos:
@@ -49,9 +53,11 @@ https://slides.com/stowball/intro-to-webxr/
             - glitch
             - online editors
         - Local Development
-            - js script tag
-            - npm install AFrame
+            - Installation:
+                - js script tag
+                - npm install AFrame
                 - npm install -g angle
+                    - Not to confuse with https://chromium.googlesource.com/angle/angle
             - HTTP Server:
                 - Mongoose Server https://cesanta.com/
                 - run python -m SimpleHTTPServer
@@ -79,6 +85,9 @@ https://slides.com/stowball/intro-to-webxr/
 
 # Special Mentions
 
+
+- Demos:
+    Vizor: https://patches.vizor.io/chriz/mb1
 
 - Resources:
     - https://webxr.io/

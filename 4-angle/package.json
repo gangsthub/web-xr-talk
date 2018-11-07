@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "live-server --port=7000",
+    "dev": "live-server --port=1234",
     "deploy": "ghpages"
   },
   "devDependencies": {
