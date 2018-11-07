@@ -1,3 +1,6 @@
 /.cache
 /node_modules
 /dist
+/1-hello-world/.cache
+/1-hello-world/dist
+/**/node_modules
