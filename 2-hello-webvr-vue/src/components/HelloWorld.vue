@@ -9,9 +9,12 @@
       <a-plane shadow position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#033778"></a-plane>
 
       <!-- Texts -->
-      <a-entity position="2.1 4 -4" :text="'color: #033778; width: 9; value: ' + message"></a-entity>
-      <a-entity position="0.3 3 -4" :text="textProperties"></a-entity>
+      <a-entity position="2.1 4 -4" v-bind:text="'color: #033778; width: 9; value: ' + message"></a-entity>
+      <a-entity position="0.3 3 -4" v-bind:text="textProperties"></a-entity>
 
+      <a-camera position="0 1.6 0">
+        <a-cursor position="0 0 -1"></a-cursor>
+      </a-camera>
     </a-scene>
     <input type="text" v-model="message" class="input input-text">
     <input type="range" v-model="width" class="input input-range" min="1" max="10" step="0.1">

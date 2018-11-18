@@ -19,7 +19,16 @@ https://slides.com/stowball/intro-to-webxr/
     - State of the art WebVR/WebXR API
 
         A draft, official spec and experimental JavaScript API that supports VR devices.
+
+        - MDN Docs are not even published yet
+        https://developer.mozilla.org/en-US/docs/Web/API/WebXR_API
+
+        - https://immersive-web.github.io/webxr-reference/
+
+
         Basically, it provides performant Stereoscopic Rendering and Positional Tracking. It doesn‘t do graphics.
+
+        It also connects to the Device Controllers
 
         You need WebGL
             - THREE.js, BabylonJS
