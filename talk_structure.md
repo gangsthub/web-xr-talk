@@ -1,7 +1,3 @@
-https://slides.com/stowball/intro-to-webxr/
-
-- marker
-
 # Intro WebXR, immersive web.
 
     - What is Immersive Web: (https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
@@ -18,7 +14,16 @@ https://slides.com/stowball/intro-to-webxr/
     - State of the art WebVR/WebXR API
 
         A draft, official spec and experimental JavaScript API that supports VR devices.
-        Basically, it provides performant Stereoscopic Rendering and Positional Tracking. It doesn‘t do graphics.
+
+        - MDN Docs are not even published yet
+        https://developer.mozilla.org/en-US/docs/Web/API/WebXR_API
+
+        - https://immersive-web.github.io/webxr-reference/
+
+
+        Basically, it provides performant Stereoscopic Rendering and Positional Tracking. It doesn't do graphics.
+
+        It also connects to the Device Controllers
 
         You need WebGL
             - THREE.js, BabylonJS
@@ -27,7 +32,7 @@ https://slides.com/stowball/intro-to-webxr/
         - https://webvr.info/
             - In progress, 2019...
             - A-Frame 0.8.2 and Chrome v66+
-            - Chrome flgas: https://webvr.info/get-chrome/
+            - Chrome flags: https://webvr.info/get-chrome/
             - On Chrome:
                 - chrome://flags/#enable-webvr
                 - Or Phones ("DayDream Ready"): Pixel 3, Galaxy S9 & S9+, Pixel 2, Galaxy S8 & S8+, ZenFone AR, LG V30
@@ -39,13 +44,11 @@ https://slides.com/stowball/intro-to-webxr/
             - https://webvr.info/samples/
             - (from mobile (Safari mobile, Chrome on Android), more likely click on "Polyfill" links...)
 
-    - Differences with Unity
-        - https://docs.unity3d.com/Manual/webgl-building.html
-
     - Performance...:
-        - On a 90-hertz HMD (Head Mounted Device), you have 11 milliseconds to render both eyes (https://software.intel.com/en-us/videos/webvr-interacting-with-the-hmd)
+        - On a 90-hertz HMD (Head Mounted Device), you have 11 milliseconds to render both eyes
+        (https://software.intel.com/en-us/videos/webvr-interacting-with-the-hmd)
 
-# AFrame.js
+# A-Frame.js
 
     - install
         - Online:
@@ -81,7 +84,6 @@ https://slides.com/stowball/intro-to-webxr/
         - https://codepen.io/jeromeetienne/pen/mRqqzb
 
 # Special Mentions
-
 
 - Demos:
     Vizor: https://patches.vizor.io/chriz/mb1
