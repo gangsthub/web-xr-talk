@@ -25,7 +25,7 @@ To launch the local development server, these projects use different packages; t
 ```
 
 All of them are run with the same command event it will not do the same. But for demo reasons I will not enter
-in details.
+in details. Pst: [parcel](https://parceljs.org) is great!
 
 It will start the same port for all of them: `1234`
 
