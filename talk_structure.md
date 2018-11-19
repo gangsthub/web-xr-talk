@@ -1,6 +1,5 @@
 https://slides.com/stowball/intro-to-webxr/
 
-- demo
 - marker
 
 # Intro WebXR, immersive web.
@@ -58,10 +57,8 @@ https://slides.com/stowball/intro-to-webxr/
                 - npm install AFrame
                 - npm install -g angle
                     - Not to confuse with https://chromium.googlesource.com/angle/angle
-            - HTTP Server:
-                - Mongoose Server https://cesanta.com/
-                - run python -m SimpleHTTPServer
-                - Any npm package...: https://www.npmjs.com/package/http-server
+            - HTTP Server: LINKS (2 opciones...)
+                - live-server
             - https://ngrok.com/download: Sharing local across devices...
 
     - support: Headsets and WebVR browsers
